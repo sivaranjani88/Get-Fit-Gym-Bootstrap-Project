@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --heading-font-style: "Inter", sans-serif;
+    --nav-font-weight: 400;
+}
+.page1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/* nav{
+    position: fixed;
+    z-index: 100;
+} */
+.navbar-brand img{
+    border-radius: 50%;
+}
+.carousel{
+    z-index: 2;
+}
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+    /* height: auto; */
+    margin-top: 50px;
+}
+#about{
+    background-color: black;
+    /* border-radius: 20px; */
+}
+#about img{
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card{
+    background:#1c1c1c !important;
+    border-radius:20px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    transition:0.4s;
+}
+
+.card button{
+    border-radius:8px;
+}
+
+.card{
+    background-color: black;
+}
+.premium{
+    transform: scale(1.05);
+}
+
+/* As it already responsive so no more media query required. */
